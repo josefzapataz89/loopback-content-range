@@ -17,7 +17,9 @@ Modify your server/component-config.json to include this module:
     "pattern": [
       "*.find"
     ],
-    "relatedModels": true
+    "relatedModels": true,
+    "remoteModelRange": "after", // after/before (remote Hooks). Default "before"
+    "remoteRelationRange": "before" // after/before (remote Hooks). Default "before"
   },
 }
 ```
